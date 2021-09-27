@@ -1,0 +1,39 @@
+{
+  "name": "@dijateam/eslint-config-taj-vue",
+  "version": "1.0.6",
+  "description": "Taj ESLint and Prettier Configs for Vue apps.",
+  "keywords": [
+    "vue",
+    "javascript",
+    "typescript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".eslintrc.js",
+    "tsconfig.json"
+  ],
+  "repository": "git@github.com:dijateam/eslint-config-taj-vue.git",
+  "author": "Dija Team <info@dija.sa>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "publish": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "@dijateam/eslint-config-taj": "^1.0.9",
+    "eslint-plugin-vue": "^7.14.0",
+    "vue-eslint-parser": "^7.10.0"
+  },
+  "devDependencies": {
+    "@dijateam/eslint-config-taj": "^1.0.9",
+    "eslint-plugin-vue": "^7.14.0",
+    "vue-eslint-parser": "^7.10.0"
+  }
+}
