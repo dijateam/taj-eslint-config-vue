@@ -1,6 +1,6 @@
 {
   "name": "@dijateam/eslint-config-taj-vue",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Taj ESLint and Prettier Configs for Vue apps.",
   "keywords": [
     "vue",
@@ -27,12 +27,12 @@
     "publish": "npm publish --access public"
   },
   "peerDependencies": {
-    "@dijateam/eslint-config-taj": "^1.0.9",
+    "@dijateam/eslint-config-taj": "^1.1.0",
     "eslint-plugin-vue": "^7.14.0",
     "vue-eslint-parser": "^7.10.0"
   },
   "devDependencies": {
-    "@dijateam/eslint-config-taj": "^1.0.9",
+    "@dijateam/eslint-config-taj": "^1.1.0",
     "eslint-plugin-vue": "^7.14.0",
     "vue-eslint-parser": "^7.10.0"
   }
